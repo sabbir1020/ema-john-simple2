@@ -1,0 +1,30 @@
+.product-container{
+    height: 500px;
+    border: 1px solid burlywood;
+    border-radius: 10px;
+   position: relative;
+}
+
+.product-container img{
+    width: 280px;
+    height: 280px;
+   border-radius: 5px;
+    width: 100%;
+}
+.product-info {
+    line-height: 1;
+    padding: 5px;
+}
+.btn-cart{
+    width: 100%;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    background-color: #FFE0B3;
+    border: none;
+    border-radius: 5px;
+}
+.btn-cart:hover{
+    background-color: rgb(160, 96, 13);
+    cursor: pointer;
+}

@@ -1,0 +1,27 @@
+.header-container{
+    display: flex;
+    justify-items: center;
+    justify-content: space-around;
+    background-color: black;
+}
+.header-container img{
+    margin-top: 10px;
+    padding: 10px;
+}
+nav{
+    margin-top: 15px;
+    padding: 10px;
+}
+nav a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+  font-weight: 400;
+  font-size: 17px;
+  padding: 10px;
+}
+nav a:hover{
+    background-color: rgb(160, 96, 13);
+    padding: 10px;
+    border-radius: 10px;
+}
